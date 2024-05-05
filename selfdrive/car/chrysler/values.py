@@ -55,6 +55,11 @@ class CAR(Platforms):
     ],
     CHRYSLER_PACIFICA_2017_HYBRID.specs,
   )
+  CHRYSLER_200_2016 = ChryslerPlatformConfig(
+    [ChryslerCarDocs("Chrysler 200 2016")],
+    ChryslerCarSpecs(mass=1575., wheelbase=2.74, steerRatio=17.0, minSteerSpeed=18.5),
+    dbc_dict('chrysler_cusw', None),
+  )
 
   # Dodge
   DODGE_DURANGO = ChryslerPlatformConfig(

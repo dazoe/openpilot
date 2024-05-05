@@ -262,6 +262,27 @@ FW_VERSIONS = {
       b'68597647AE',
     ],
   },
+  CAR.CHRYSLER_200_2016: {
+    (Ecu.abs, 0x18da28f1, None): [
+      b'68267003AC',
+    ],
+    (Ecu.combinationMeter, 0x18da60f1, None): [
+      b'68259071AB',
+    ],
+    (Ecu.eps, 0x18da30f1, None): [
+      b'05154933AD',
+    ],
+    (Ecu.srs, 0x18dac0f1, None): [
+      b'68264878AA',
+    ],
+    (Ecu.transmission, 0x18da18f1, None): [
+      b'68280760AG',
+      b'ZF_FD_V201_',
+    ],
+    (Ecu.engine, 0x18da10f1, None): [
+      b'68250525AN',
+    ],
+  },
   CAR.JEEP_CHEROKEE_5TH_GEN: {
     (Ecu.combinationMeter, 0x18da60f1, None): [
       b'PLACEHOLDER',

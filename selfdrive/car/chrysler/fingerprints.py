@@ -285,26 +285,26 @@ FW_VERSIONS = {
   },
   CAR.JEEP_CHEROKEE_5TH_GEN: {
     (Ecu.combinationMeter, 0x18da60f1, None): [
-      b'PLACEHOLDER',
+      b'PLACEHOLDERa',
     ],
     (Ecu.srs, 0x18dac0f1, None): [
-      b'PLACEHOLDER',
+      b'PLACEHOLDERa',
     ],
     (Ecu.abs, 0x18da28f1, None): [
-      b'PLACEHOLDER',
+      b'PLACEHOLDERa',
     ],
     # TODO: Find a diagnostic address for the radar
     #(Ecu.fwdRadar, 0x753, None): [
     #  b'PLACEHOLDER',
     #],
     (Ecu.eps, 0x18da30f1, None): [
-      b'PLACEHOLDER',
+      b'PLACEHOLDERa',
     ],
     (Ecu.engine, 0x18da10f1, None): [
-      b'PLACEHOLDER',
+      b'PLACEHOLDERa',
     ],
     (Ecu.transmission, 0x18da18f1, None): [
-      b'PLACEHOLDER',
+      b'PLACEHOLDERa',
     ],
   },
   CAR.JEEP_GRAND_CHEROKEE: {

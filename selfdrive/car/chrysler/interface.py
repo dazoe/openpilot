@@ -45,6 +45,13 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.pid.kpV, ret.lateralTuning.pid.kiV = [[0.15, 0.30], [0.03, 0.05]]
       ret.lateralTuning.pid.kf = 0.00006
 
+    if candidate == CAR.CHRYSLER_200_2016:
+      # ret.steerActuatorDelay = 0.15
+      ret.lateralTuning.init('pid')
+      ret.lateralTuning.pid.kpBP, ret.lateralTuning.pid.kiBP = [[9., 20.], [9., 20.]]
+      ret.lateralTuning.pid.kpV, ret.lateralTuning.pid.kiV = [[0.15, 0.30], [0.03, 0.05]]
+      ret.lateralTuning.pid.kf = 0.00006
+
     # Jeep
     elif candidate == CAR.JEEP_CHEROKEE_5TH_GEN:
       ret.steerActuatorDelay = 0.15
